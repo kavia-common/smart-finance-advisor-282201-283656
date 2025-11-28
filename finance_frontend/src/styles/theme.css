@@ -121,6 +121,20 @@ body {
   padding: var(--space-6);
 }
 
+/* Form base */
+input, select {
+  font: inherit;
+}
+
+/* Simple list utility */
+.list .text-muted.small { font-size: 12px; }
+
+/* Accessibility */
+.visually-hidden { 
+  position: absolute !important; height: 1px; width: 1px; overflow: hidden; 
+  clip: rect(1px, 1px, 1px, 1px); white-space: nowrap; 
+}
+
 .panel {
   background: var(--color-surface);
   border: 1px solid var(--border-color);
