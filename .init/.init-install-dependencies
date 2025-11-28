@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/smart-finance-advisor-282201-283656/finance_frontend"
+}
